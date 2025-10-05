@@ -241,7 +241,7 @@ class _GameScreenState extends State<GameScreen> {
                   generateQuestion();
                 });
               },
-              child: const Text('Grade 1 (1-10)'),
+              child: const Text('Grade 1 '),
             ),
             ElevatedButton(
               onPressed: () {
@@ -250,7 +250,7 @@ class _GameScreenState extends State<GameScreen> {
                   generateQuestion();
                 });
               },
-              child: const Text('Grade 2 (1-50)'),
+              child: const Text('Grade 2 '),
             ),
             ElevatedButton(
               onPressed: () {
@@ -259,7 +259,7 @@ class _GameScreenState extends State<GameScreen> {
                   generateQuestion();
                 });
               },
-              child: const Text('Grade 3 (1-200)'),
+              child: const Text('Grade 3 '),
             ),
             ElevatedButton(
               onPressed: () {
@@ -268,7 +268,7 @@ class _GameScreenState extends State<GameScreen> {
                   generateQuestion();
                 });
               },
-              child: const Text('Grade 4 (1-1000)'),
+              child: const Text('Grade 4 '),
             ),
             ElevatedButton(
               onPressed: () {
@@ -277,7 +277,7 @@ class _GameScreenState extends State<GameScreen> {
                   generateQuestion();
                 });
               },
-              child: const Text('Grade 5 (1-9999)'),
+              child: const Text('Grade 5 '),
             ),
           ],
         ),
@@ -294,7 +294,7 @@ class _GameScreenState extends State<GameScreen> {
           'Addition Game',
           textAlign: TextAlign.center,
           style: TextStyle(
-            fontSize: 32,
+            fontSize: 40,
             fontWeight: FontWeight.bold,
             color: Colors.white,
             shadows: [
